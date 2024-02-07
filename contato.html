@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <ul>
+    <ul id="menu">
       <li><a href="index.html">Home</a></li>
       <li><a href="contato.html">Contato</a></li>
     </ul>
     <h1>Entre em contato comigo</h1>
-    <form>
+
+    <form class="center">
       <label for="nome">Nome:</label> <br />
       <input type="text" id="nome" name="nome" />
       <br />
@@ -20,18 +23,21 @@
       <input type="email" id="email" name="email" />
       <br />
       <br />
-      <label for="assunto">Assunto:</label> <br />
+      <label for="assunto">Mensagem:</label> <br />
       <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
       <br />
       <br />
       <button type="submit">Enviar</button>
     </form>
 
-    <h2>Endereço:</h2>
+    <div class="container">
+      <div>
+    <h2 class="center">Endereço:</h2>
     <p>Rua dos Gatos, 123</p>
     <p>Bairro: Gato Feliz</p>
     <p>Cidade: Arujá</p>
-
+</div>
+<div>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.3239249729213!2d-46.31573040000001!3d-23.376496099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce870de9659a1d%3A0xc471fff66ef3c323!2sR.%20dos%20Gatos%20-%20Parque%20Rodrigo%20Barreto%2C%20Aruj%C3%A1%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1707154028632!5m2!1spt-BR!2sbr"
       width="450"
@@ -41,5 +47,7 @@
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
+    </div>
+    </div>
   </body>
 </html>
