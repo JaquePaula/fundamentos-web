@@ -9,14 +9,22 @@
       content="Página sobre gatos, com curiosidades e informações sobre meus gatos"
     />
     <meta name="keywords" content="gatos, curiosidades, animais, pets" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+
     <title>Gatos &#x1F408;</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="contato.html">Contato</a></li>
+    <ul id="menu">
+      <li><a href="index.html"> Home </a></li>
+      <li><a href="contato.html"> Contato </a></li>
     </ul>
-    <h1 style="text-align: center">Gatos &#x1F431;</h1>
+    <h1>Gatos &#x1F431;</h1>
 
     <p>
       <b>
@@ -63,37 +71,75 @@
       a temperatura do corpo e estimular a circulação.
     </p>
 
-    <h3 style="font-size: 20px">Info sobre meus gatos:</h3>
+    <div class="container">
+      <div class="border">
+        <h3 style="font-size: 20px">Meus gatos:</h3>
 
-    <ul>
-      <li style="color: red">Nome: Tom</li>
-      <li>Idade: 3 anos</li>
-      <li>Raça: SRD</li>
-      <li>Cor: Preto e branco</li>
-      <br />
-      <li style="color: red">Nome: Mel</li>
-      <li>Idade: 2 anos</li>
-      <li>Raça: SRD</li>
-      <li>Cor: Rajada</li>
-    </ul>
+        <ul>
+          <li style="color: red">Nome: Tom</li>
+          <li>Idade: 3 anos</li>
+          <li>Raça: SRD</li>
+          <li>Cor: Preto e branco</li>
+          <br />
+          <li style="color: red">Nome: Mel</li>
+          <li>Idade: 2 anos</li>
+          <li>Raça: SRD</li>
+          <li>Cor: Rajada</li>
+        </ul>
+      </div>
+      <div>
+        <img
+          class="img-gato"
+          src="assets/img/tomemel.jpeg"
+          width="270"
+          height="400"
+          alt="Foto dos meus gatos dormindo, um frajola e uma rajada"
+        />
+      </div>
+    </div>
 
-    <img
-      src="assets/img/tomemel.jpeg"
-      width="270"
-      height="400"
-      alt="Foto dos meus gatos dormindo, um frajola e uma rajada"
-    />
+    <div class="center">
+      <h2>Video deles brincando:</h2>
 
-    <h2>Video deles brincando:</h2>
-
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/5WTFqXTdmTE?si=eozw55Wcz0NwdmhL"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5WTFqXTdmTE?si=eozw55Wcz0NwdmhL"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
   </body>
+
+  <footer>
+    <div class="container">
+      <a href="https://www.facebook.com/Jaqueriot" target="_blank">
+        <img
+          class="social"
+          src="assets/img/facebook.png"
+          alt="Logo do Facebook"
+        />
+      </a>
+
+      <a href="https://www.linkedin.com/in/jaquelinepaula/" target="_blank">
+        <img
+          class="social"
+          src="assets/img/linkedin.png"
+          alt="Logo do Linkedin"
+        />
+      </a>
+
+      <a href="https://www.instagram.com/jaqueriot/" target="_blank">
+        <img
+          class="social"
+          src="assets/img/instagram.png"
+          alt="Logo do Intagram"
+        />
+      </a>
+    </div>
+
+    <h5 class="center">Todos os direitos reservados: Jaqueline Paula</h5>
+  </footer>
 </html>
