@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 1rem 12rem;
+}
+
+.centro {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  background-color: #004047;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 1.3rem 15rem;
+}
+
+#titulo {
+  background-image: linear-gradient(to right, #cf2e2e, #cf1e1e );
+  padding: 0.001rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.img-gato {
+  width: 30rem;
+  height: 38rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  border-radius: 1.5rem;
+  resize-mode: contain;
+}
+
+.alignBox {
+  margin-right: 4rem;
+  padding: 1rem;
+}
+
+.clique {
+  background-color: rgb(3, 130, 119);
+  padding: 1rem;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.clique2 {
+  background-color: rgb(3, 130, 119);
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  left: 19rem;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+}
+td {
+  text-align: right;
+  border-bottom: 1px solid #ddd;
+}
+
+.enviar {
+  background-image: linear-gradient(to right, red , orange);
+  font-size: 0.8rem;
+  width: 28rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  position: relative;
+  left: 0.5rem;
+  margin: -1.5rem 0 0.5rem 0;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+.enviar2 {
+  background-image: linear-gradient(to right, #34e77f , #147d71);
+  font-size: 0.8rem;
+  width: 28rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  position: relative;
+  left: 0.5rem;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+}
